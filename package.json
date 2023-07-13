@@ -1,0 +1,36 @@
+{
+  "name": "node-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nguyenchiemgiang01/node-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nguyenchiemgiang01/node-project/issues"
+  },
+  "homepage": "https://github.com/Nguyenchiemgiang01/node-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^7.0.7",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.3.4",
+    "mongoose-slug-updater": "^3.3.0",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
